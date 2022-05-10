@@ -1,0 +1,48 @@
+:root {
+  --imperial-red: #e63946ff;
+  --honeydew: #f1faeeff;
+  --powder-blue: #a8dadcff;
+  --celadon-blue: #457b9dff;
+  --prussian-blue: #1d3557ff;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--prussian-blue);
+  color: var(--powder-blue);
+}
+
+/*form an resent history css*/
+.search-city-title > p,
+hr,
+.recent-cities,
+.recent-cities-resent {
+  padding: 5px;
+}
+
+.search-city-title > p,
+hr,
+.recent-cities > p,
+.recent-cities-resent > p {
+  margin: 0px;
+}
+
+.search-city-title,
+.recent-cities {
+  text-align: left;
+  font-weight: bold;
+}
+
+.search-city-form-submit {
+  margin: 5px;
+  width: 100%;
+  padding: 0px;
+}
+
+.recent-cities-resent {
+  width: 100%;
+  background-color: var(--powder-blue);
+}

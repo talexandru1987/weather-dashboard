@@ -15,15 +15,35 @@
   </head>
   <body>
     <!-- header -->
-    <header>TITLE</header>
+    <header>Weather Dashboard</header>
     <main class="row border">
       <!-- Form and recent history section -->
-      <section class="col-sm-12 col-md-3 border">
+      <section class="search-city col-sm-12 col-md-3 border">
         <!-- search form -->
-        <div>Search Form</div>
+        <div class="search-city-title"><p>Search City:</p></div>
+
+        <form class="search-city-form" id="search-form">
+          <div class="search-city-form-div">
+            <input
+              type="text"
+              class="form-control"
+              id="search-input"
+              placeholder="Enter city name"
+            />
+          </div>
+
+          <button type="submit" class="search-city-form-submit btn-primary btn">Search</button>
+        </form>
+
+        <hr />
 
         <!-- recent cities -->
-        <div>Recent Cities</div>
+        <div class="recent-cities">
+          <p>Recent Cities:</p>
+          <div class="recent-cities-resent btn">
+            <p>Constanta</p>
+          </div>
+        </div>
       </section>
 
       <!-- current and future data section -->
