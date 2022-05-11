@@ -46,3 +46,29 @@ hr,
   width: 100%;
   background-color: var(--powder-blue);
 }
+
+/*current weather data css*/
+
+.weather-data-title,
+.weather-data-time,
+.future-data-card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.weather-data-img > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.weather-data-content {
+  margin: 0px;
+  padding: 10px;
+}
+
+.weather-data-table {
+  background-color: var(--powder-blue);
+}
+
+/*future weather data card css*/

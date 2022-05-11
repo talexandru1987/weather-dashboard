@@ -49,75 +49,73 @@
       <!-- current and future data section -->
       <section class="col-sm-12 col-md-9 border">
         <!-- current weather data -->
-        <div>Current Weather Data</div>
+        <div class="weather-data-title"><p>Constanta</p></div>
+        <div class="weather-data-time"><p>Thursday, 12th May, 2022 00:22:43</p></div>
+        <div class="weather-data-img">
+          <img
+            src="http://openweathermap.org/img/w/04n.png"
+            alt="weather-icon"
+            class="shadow-sm p-3 mt-3 bg-body rounded border"
+          />
+        </div>
 
-        <!-- forecast weather data -->
+        <div class="weather-data-content">
+          <div class="row g-0">
+            <div class="weather-data-table col-sm-12 col-md-4 p-2 border fw-bold">Temperature</div>
+            <div class="col-sm-12 col-md-8 p-2 border">12.38° C</div>
+          </div>
+          <div class="row g-0">
+            <div class="weather-data-table col-sm-12 col-md-4 p-2 border fw-bold">Humidity</div>
+            <div class="col-sm-12 col-md-8 p-2 border">73%</div>
+          </div>
+          <div class="row g-0">
+            <div class="weather-data-table col-sm-12 col-md-4 p-2 border fw-bold">Wind Speed</div>
+            <div class="col-sm-12 col-md-8 p-2 border">3.77 MPH</div>
+          </div>
+          <div class="row g-0">
+            <div class="weather-data-table col-sm-12 col-md-4 p-2 border fw-bold">UV Index</div>
+            <div class="col-sm-12 col-md-8 p-2 border">
+              <span class="text-white px-3 rounded-2 bg-success">0</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- future weather data -->
         <div>
           <!-- title -->
-          <h2>Title</h2>
-          <div class="d-flex justify-content-between flex-wrap">
-            <!-- forecast weather card 1 -->
-            <div class="card" style="width: 12rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h2 class="future-data-card-title">Constanta</h2>
+          <hr />
+          <div class="d-flex flex-row justify-content-center flex-wrap">
+            <div class="card m-2 forecast-card">
+              <div class="d-flex justify-content-center">
+                <img
+                  src="http://openweathermap.org/img/w/02d.png"
+                  class="shadow-sm p-3 mt-3 bg-body rounded border card-img-top weather-icon"
+                  alt="weather icon"
+                />
               </div>
-            </div>
-
-            <!-- forecast weather card 2 -->
-            <div class="card" style="width: 12rem">
-              <img src="..." class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-
-            <!-- forecast weather card 3 -->
-            <div class="card" style="width: 12rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-
-            <!-- forecast weather card 4 -->
-            <div class="card" style="width: 12rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-
-            <!-- forecast weather card 5 -->
-            <div class="card" style="width: 12rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title text-center">Thu, 12th May</h5>
+                <div class="mt-4 text-center">
+                  <div class="row g-0">
+                    <div class="weather-data-table col-12 p-2 border fw-bold">Temperature</div>
+                    <div class="col-12 p-2 border">21.33° C</div>
+                  </div>
+                  <div class="row g-0">
+                    <div class="weather-data-table col-12 p-2 border fw-bold">Humidity</div>
+                    <div class="col-12 p-2 border">57%</div>
+                  </div>
+                  <div class="row g-0">
+                    <div class="weather-data-table col-12 p-2 border fw-bold">Wind Speed</div>
+                    <div class="col-12 p-2 border">5.92 MPH</div>
+                  </div>
+                  <div class="row g-0">
+                    <div class="weather-data-table col-12 p-2 border fw-bold">UV Index</div>
+                    <div class="col-12 p-2 border">
+                      <span class="text-white px-3 rounded-2 bg-warning">7.03</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
