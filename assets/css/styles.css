@@ -47,6 +47,13 @@ hr,
   background-color: var(--powder-blue);
 }
 
+/*render alert*/
+.recent-cities-alert {
+  background-color: var(--imperial-red);
+  margin: 0px;
+  padding: 5px;
+  width: 100%;
+}
 /*current weather data css*/
 
 .weather-data-title,
