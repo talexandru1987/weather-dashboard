@@ -32,24 +32,27 @@
             />
           </div>
 
-          <button type="submit" class="search-city-form-submit btn-primary btn">Search</button>
+          <button type="submit" id="search-button" class="search-city-form-submit btn-primary btn">
+            Search
+          </button>
         </form>
+        <div id="search-alert"></div>
 
         <hr />
 
         <!-- recent cities    recent-cities-resent btn -->
-        <div class="recent-cities">
-          <p>Recent Cities:</p>
-          <div class="recent-cities-alert btn">
+        <!-- <div class="recent-cities-alert btn">
             <p>Constanta</p>
-          </div>
-        </div>
+          </div> -->
+        <p class="recent-cities-title">Recent Cities:</p>
+        <div id="recent-cities"></div>
       </section>
 
       <!-- current and future data section -->
-      <section class="render-data-container col-sm-12 col-md-9 border">
+      <div id="weather-info-container" class="render-data-container col-sm-12 col-md-9 border">
         <!-- current weather data -->
-        <div class="weather-data-title"><p>Constanta</p></div>
+
+        <!-- <div class="weather-data-title"><p>Constanta</p></div>
         <div class="weather-data-time"><p>Thursday, 12th May, 2022 00:22:43</p></div>
         <div class="weather-data-img">
           <img
@@ -78,11 +81,11 @@
               <span class="text-white px-3 rounded-2 bg-success">0</span>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- future weather data -->
-        <div>
-          <!-- title -->
+        <!-- <div>
+          
           <h2 class="future-data-card-title">Constanta</h2>
           <hr />
           <div class="d-flex flex-row justify-content-center flex-wrap">
@@ -119,8 +122,8 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </div> -->
+      </div>
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
