@@ -30,6 +30,8 @@ THEN I am again presented with current and future conditions for that city
 
 ## Mock-Up
 
+Link to deployed page: https://talexandru1987.github.io/weather-dashboard/
+
 The following image shows the web application's appearance and functionality:
 
 ![Mock-up](./assets/img/weather-dashboard.png)
